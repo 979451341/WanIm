@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg">
+
+    <zzw.imtest.view.TitleLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        app:TitleLayout_title="xxx小助手"></zzw.imtest.view.TitleLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_phone"
+        android:src="@mipmap/phone"
+        android:layout_marginRight="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_width="24dp"
+        android:layout_height="20dp"/>
+
+    <ImageView
+        android:id="@+id/iv_message"
+        android:src="@mipmap/message"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_width="24dp"
+        android:layout_height="20dp"/>
+    <FrameLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@color/white">
+
+    </FrameLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_above="@+id/frame_layout"
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:id="@+id/iv_sound"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@mipmap/sound_record"
+            android:layout_width="15dp"
+            android:layout_height="20dp"/>
+
+
+        <io.github.rockerhieu.emojicon.EmojiconEditText
+            android:paddingLeft="10dp"
+            android:id="@+id/et"
+            android:textCursorDrawable="@drawable/et_cursor"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/et_bg"
+            android:layout_width="243dp"
+            android:layout_height="35dp"
+            android:padding="5dp"
+            />
+
+        <zzw.imtest.view.SoundTextView
+            android:visibility="invisible"
+            android:id="@+id/tv_sound"
+            android:gravity="center"
+            android:text="按住说话"
+            android:paddingLeft="10dp"
+            android:textCursorDrawable="@drawable/et_cursor"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/et_bg"
+            android:layout_width="243dp"
+            android:layout_height="25dp"/>
+
+
+        <ImageView
+            android:id="@+id/iv_emoji"
+            android:src="@mipmap/smile_face"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="47dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="21dp"
+            android:layout_height="21dp"/>
+
+        <ImageView
+            android:id="@+id/iv_option"
+            android:src="@mipmap/add"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="21dp"
+            android:layout_height="21dp"/>
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/confirm_turn_out"
+            android:layout_width="40dp"
+            android:layout_height="21dp"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:text="发送"
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyc_chat"
+        android:layout_below="@+id/title_layout"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

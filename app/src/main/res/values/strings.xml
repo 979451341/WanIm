@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">玩聊天</string>
+
+
+    <string name="jmui_time_format_year_month_day">yyyy年-MM月-dd日</string>
+    <string name="jmui_time_format_accuracy">yyyy-MM-dd HH:mm:ss </string>
+    <string name="jmui_time_format_hours">HH:mm</string>
+    <string name="jmui_yesterday">昨天</string>
+    <string name="jmui_before_yesterday">前天</string>
+    <string name="jmui_before_dawn">凌晨</string>
+    <string name="jmui_morning">早上</string>
+    <string name="jmui_afternoon">下午</string>
+    <string name="jmui_night">晚上</string>
+    <string name="jmui_monday">周一</string>
+    <string name="jmui_tuesday">周二</string>
+    <string name="jmui_wednesday">周三</string>
+    <string name="jmui_thursday">周四</string>
+    <string name="jmui_friday">周五</string>
+    <string name="jmui_saturday">周六</string>
+    <string name="jmui_sunday">周日</string>
+    <string name="year">年</string>
+    <string name="jmui_month">月</string>
+    <string name="jmui_day">日</string>
+    <string name="second">秒</string>
+</resources>

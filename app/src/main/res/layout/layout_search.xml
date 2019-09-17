@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="#FFEDEDED">
+
+        <View
+                android:layout_centerInParent="true"
+                android:layout_width="334dp"
+                android:layout_height="34dp"
+                android:background="@drawable/search_bg"/>
+
+        <View
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:background="@mipmap/search"
+                android:layout_width="18dp"
+                android:layout_height="18dp"/>
+
+        <TextView
+                android:id="@+id/tv"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="59dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搜索"
+                android:textColor="#ff8e8e93"
+                android:textSize="14dp"
+        />
+
+    <EditText
+            android:textCursorDrawable="@drawable/et_cursor"
+            android:background="@null"
+            android:inputType="number"
+            android:visibility="invisible"
+            android:id="@+id/et"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="59dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="搜索"
+            android:textColorHint="#ff8e8e93"
+            android:textColor="@color/tv"
+            android:textSize="14dp"
+    />
+
+
+    </RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:orientation="vertical">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="149dp"
+            android:layout_height="140dp"
+            android:background="@mipmap/add_dialog"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:id="@+id/ll_gourp_chat"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:src="@mipmap/pop_group_chat"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="27dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"/>
+
+            <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="创建群聊"
+                    android:textColor="#ffffffff"
+                    android:textSize="14dp"
+            />
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF727474"/>
+        <LinearLayout
+                android:id="@+id/ll_add"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:src="@mipmap/add_friend_white"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="27dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"/>
+
+            <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="添加好友"
+                    android:textColor="#ffffffff"
+                    android:textSize="14dp"
+            />
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF727474"/>
+        <LinearLayout
+                android:id="@+id/ll_scanner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:src="@mipmap/scanner_white"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="27dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"/>
+
+            <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="扫一扫"
+                    android:textColor="#ffffffff"
+                    android:textSize="14dp"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

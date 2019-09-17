@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+android:background="@color/white">
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称"
+            android:textColor="#ff000000"
+            android:textSize="13dp"
+    />
+
+    <TextView
+            android:id="@+id/tv_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12378443678"
+            android:textColor="#ffa4a2a2"
+            android:textSize="12dp"
+    />
+
+
+    <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="7dp"
+            android:layout_height="11dp"
+            android:src="@mipmap/back"
+    />
+
+    <ImageView
+            android:id="@+id/iv"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+    android:src="@mipmap/code"/>
+
+</RelativeLayout>

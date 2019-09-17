@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="@color/white"
+        android:id="@+id/rl">
+
+    <zzw.imtest.view.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:src="@mipmap/head_default"
+    />
+
+    <TextView
+            android:id="@+id/tv_name"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="79dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="#ff000000"
+            android:textSize="14dp"
+    />
+
+    <TextView
+            android:id="@+id/tv_content"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="79dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#ff9b9b9b"
+            android:textSize="13dp"
+    />
+    <View
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="283dp"
+            android:layout_height="1dp"
+            android:background="@color/main_bg"
+    />
+
+    <View
+        android:id="@+id/v_new"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        style="@style/NoticeSpot"/>
+
+</RelativeLayout>

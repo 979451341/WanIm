@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tv_time"
+            style="@style/TextTime"/>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <zzw.imtest.view.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_marginLeft="13dp"
+            android:layout_width="@dimen/chat_head"
+            android:layout_height="@dimen/chat_head"
+            android:src="@mipmap/head_default"
+    />
+
+
+
+
+
+    <RelativeLayout
+            android:id="@+id/rl_redp"
+            android:background="@drawable/redp_bg"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="78dp"
+            android:layout_width="218dp"
+            android:layout_height="95dp">
+        <View
+                android:id="@+id/v_bg"
+                android:background="@drawable/redp_v_bg"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"/>
+
+        <ImageView
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="13dp"
+                android:src="@mipmap/redp"
+                android:layout_width="36dp"
+                android:layout_height="48dp"/>
+
+        <TextView
+                android:id="@+id/tv_note"
+                android:gravity="center"
+                android:layout_marginTop="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:text="恭喜发财，大吉大利！"
+                android:textColor="#ffffffff"
+                android:textSize="16dp"
+        />
+
+        <TextView
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="红包"
+                android:textColor="#ffc3c2c2"
+                android:textSize="13dp"
+        />
+
+    </RelativeLayout>
+
+    <ProgressBar
+            android:visibility="invisible"
+            android:id="@+id/pb"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/rl_redp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Small"
+    />
+
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tv_time"
+            style="@style/TextTime"/>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <zzw.imtest.view.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_marginLeft="13dp"
+            android:layout_width="@dimen/chat_head"
+            android:layout_height="@dimen/chat_head"
+            android:src="@mipmap/head_default"
+    />
+
+
+
+    <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="78dp"
+            android:layout_width="218dp"
+            android:layout_height="126dp"
+    android:background="@drawable/address_bg">
+
+
+        <TextView
+                android:id="@+id/tv"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="24dp"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#ff020202"
+                android:textSize="15dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+        />
+
+        <TextView
+                android:id="@+id/tv_detail"
+                android:layout_marginTop="29dp"
+                android:layout_marginLeft="24dp"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#ffc2c0c0"
+                android:textSize="12dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+        />
+
+        <ImageView
+
+                android:src="@mipmap/address_map_bg"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_alignParentBottom="true"/>
+
+
+
+    </RelativeLayout>
+
+
+    <ProgressBar
+            android:visibility="invisible"
+            android:id="@+id/pb"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Small"
+    />
+
+</RelativeLayout></LinearLayout>

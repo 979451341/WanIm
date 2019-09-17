@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+
+
+    <ImageView
+            android:id="@+id/iv_head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="144dp"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:src="@mipmap/head_default"
+            />
+
+
+    <TextView
+            android:id="@+id/tv_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="282dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="你我他"
+            android:textColor="#ffffffff"
+            android:textSize="23dp"
+            />
+
+    <TextView
+            android:id="@+id/tv_des"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="316dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在等待对方接受邀请..."
+            android:textColor="#ffececec"
+            android:textSize="13dp"
+            />
+
+
+    <ImageView
+            android:layout_below="@+id/tv_des"
+            android:id="@+id/iv_handfs_free"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:layout_width="22dp"
+            android:layout_height="17dp"
+            android:src="@mipmap/stop_handfs_free"
+            />
+    <TextView
+            android:id="@+id/tv_handfs_free"
+            android:layout_below="@+id/iv_handfs_free"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="免提"
+            android:textColor="#ffececec"
+            android:textSize="12dp"
+            />
+
+    <TextView
+            android:id="@+id/tv_time"
+            android:layout_below="@+id/tv_handfs_free"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0分0秒"
+            android:textColor="#ffececec"
+            android:textSize="12dp"
+            />
+
+    <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <ImageView
+                    android:id="@+id/iv_cancel"
+
+                    android:layout_gravity="center"
+                    android:layout_width="59dp"
+                    android:layout_height="59dp"
+                    android:src="@mipmap/video_phone"/>
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="取消"
+                    android:textColor="#ffffffff"
+                    android:textSize="12dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:id="@+id/ll_receive"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <ImageView
+                    android:id="@+id/iv_receive"
+
+                    android:layout_gravity="center"
+                    android:layout_width="59dp"
+                    android:layout_height="59dp"
+                    android:src="@mipmap/video_phone_receive"/>
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="接听"
+                    android:textColor="#ffffffff"
+                    android:textSize="12dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

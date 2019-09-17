@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+android:background="@color/white">
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+    android:background="@color/main_bg"
+    android:layout_alignParentBottom="true"/>
+
+    <ImageView
+            android:layout_marginLeft="13dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_select"
+            android:layout_width="16dp"
+               android:layout_height="16dp"
+    android:src="@mipmap/unselect"/>
+
+    <zzw.imtest.view.CircleImageView
+            android:id="@+id/iv"
+            android:layout_marginLeft="37dp"
+            android:layout_centerVertical="true"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@mipmap/head_default"
+    />
+
+    <TextView
+            android:id="@+id/tv"
+            android:layout_marginLeft="90dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ui小技巧"
+            android:textColor="#ff000000"
+            android:textSize="14dp"
+    />
+
+
+</RelativeLayout>

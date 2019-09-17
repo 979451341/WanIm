@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="chat_head">48dp</dimen>
+    <dimen name="keyboard_height">270dp</dimen>
+</resources>

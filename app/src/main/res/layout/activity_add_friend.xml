@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f7f7">
+
+    <zzw.imtest.view.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        app:TitleLayout_title="添加好友"></zzw.imtest.view.TitleLayout>
+
+    <zzw.imtest.view.SearchLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        app:SearchLayout_hint="请输入好友的手机号"
+        app:SearchLayout_isInput="true"></zzw.imtest.view.SearchLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_scanner"
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:src="@mipmap/scanner_icon"
+            android:layout_width="47dp"
+            android:layout_height="47dp"/>
+
+        <TextView
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="97dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫一扫"
+            android:textColor="#ff000000"
+            android:textSize="13dp"
+            />
+        <TextView
+            android:layout_marginTop="44dp"
+            android:layout_marginLeft="97dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫描好友的二维码"
+            android:textColor="#ff9b9b9b"
+            android:textSize="12dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SearchLayout">
+        <attr name="SearchLayout_hint" format="string" />
+        <attr name="SearchLayout_isInput" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleLayout">
+        <attr name="TitleLayout_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchLayout">
+        <attr name="SwitchLayout_title" format="string" />
+        <attr name="SwitchLayout_open" format="boolean" />
+        <attr name="SwitchLayout_isIn" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="InfoLayout">
+        <attr name="InfoLayout_title" format="string" />
+        <attr name="InfoLayout_content" format="string" />
+        <attr name="InfoLayout_showiv" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ItemLayout">
+        <attr name="ItemLayout_title" format="string" />
+        <attr name="ItemLayout_content" format="string" />
+        <attr name="ItemLayout_right" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="InputLayout">
+        <attr name="InputLayout_title" format="string" />
+        <attr name="InputLayout_hint" format="string" />
+        <attr name="InputLayout_hasRight" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectLayout">
+        <attr name="SelectLayout_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FcSelectView">
+        <attr name="FcSelectView_title" format="string" />
+        <attr name="FcSelectView_content" format="string" />
+        <attr name="FcSelectView_icon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="VisibleView">
+        <attr name="VisibleView_title" format="string" />
+        <attr name="VisibleView_content" format="string" />
+        <attr name="VisibleView_select" format="boolean" />
+        <attr name="VisibleView_more" format="boolean" />
+    </declare-styleable>
+
+    <!-- 授权密码输入框 -->
+    <declare-styleable name="CustomPasswordInputView">
+        <attr name="maxCount" format="integer" />
+        <attr name="pwdcircleColor" format="color" />
+        <attr name="pwdCircleRadius" format="dimension" />
+        <attr name="strokeColor" format="color" />
+        <attr name="devideLineColor" format="color" />
+
+        <attr name="divideLineWidth" format="dimension" />
+        <attr name="divideLineColor" format="color" />
+        <attr name="rectAngle" format="dimension" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <zzw.imtest.view.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        app:TitleLayout_title="二维码"></zzw.imtest.view.TitleLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll"
+
+        android:background="@drawable/recharge_code_bg"
+        android:layout_marginTop="21dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/iv_code"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:src="@mipmap/head_default"
+
+            />
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:id="@+id/iv_logo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_save"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buy_btn_bg"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="308dp"
+        android:layout_height="32dp"
+        android:text="保存二维码"
+        android:textColor="#ffffffff"
+        android:textSize="13dp"
+        />
+
+
+
+</LinearLayout>

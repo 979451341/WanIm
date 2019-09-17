@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tv_time"
+            style="@style/TextTime"/>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <zzw.imtest.view.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_marginLeft="13dp"
+            android:layout_width="@dimen/chat_head"
+            android:layout_height="@dimen/chat_head"
+            android:src="@mipmap/head_default"
+    />
+
+
+
+    <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="78dp"
+            android:layout_width="218dp"
+            android:layout_height="95dp"
+            android:background="@drawable/address_bg">
+
+        <zzw.imtest.view.CircleImageView
+                android:id="@+id/iv"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="14dp"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@mipmap/head_default"
+        />
+        <TextView
+                android:id="@+id/tv"
+                android:layout_marginTop="21dp"
+                android:layout_marginLeft="71dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#ff020202"
+                android:textSize="15dp"
+        />
+
+        <View
+                android:layout_marginTop="70dp"
+                android:layout_width="218dp"
+                android:layout_height="1dp"
+                android:background="@color/line"
+        />
+
+        <TextView
+            android:id="@+id/tv_des"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个人名片"
+                android:textColor="#ffc3c2c2"
+                android:textSize="12dp"
+        />
+
+    </RelativeLayout>
+
+
+    <ProgressBar
+            android:visibility="invisible"
+            android:id="@+id/pb"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Small"
+    />
+
+</RelativeLayout></LinearLayout>

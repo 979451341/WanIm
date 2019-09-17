@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical"
+    tools:context=".ui.my.PersonInformActivity">
+
+    <zzw.imtest.view.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        app:TitleLayout_title="个人信息"></zzw.imtest.view.TitleLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="59dp">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像"
+            android:textColor="#ff000000"
+            android:textSize="13dp"
+            />
+
+        <zzw.imtest.view.CircleImageView
+            android:id="@+id/iv_head"
+            android:src="@mipmap/head_default"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="7dp"
+            android:layout_height="11dp"
+            android:src="@mipmap/back"
+            />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="10dp"
+        android:background="@color/main_bg"
+        />
+
+
+
+    <zzw.imtest.util.InfoLayout
+        android:id="@+id/info_username"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        app:InfoLayout_title="昵称"
+        app:InfoLayout_content="你我他"></zzw.imtest.util.InfoLayout>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:background="@color/main_bg"
+        />
+
+    <zzw.imtest.util.InfoLayout
+        android:id="@+id/info_sex"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        app:InfoLayout_title="性别"
+        app:InfoLayout_content="男"></zzw.imtest.util.InfoLayout>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:background="@color/main_bg"
+        />
+
+
+    <zzw.imtest.util.InfoLayout
+        android:id="@+id/info_code"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        app:InfoLayout_title="二维码"
+        app:InfoLayout_content="你我他"
+        app:InfoLayout_showiv="true"></zzw.imtest.util.InfoLayout>
+
+
+
+
+
+
+</LinearLayout>

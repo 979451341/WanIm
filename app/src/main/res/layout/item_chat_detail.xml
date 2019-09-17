@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+android:orientation="vertical">
+
+    <zzw.imtest.view.CircleImageView
+            android:id="@+id/iv"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/head_default"
+
+            android:visibility="gone"
+    />
+
+
+    <TextView
+            android:id="@+id/tv"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="#ff000000"
+            android:textSize="9dp"
+
+            android:visibility="gone"
+    />
+
+
+    <FrameLayout
+            android:id="@+id/rl_add"
+            android:background="@drawable/chat_detail_add"
+            android:layout_marginTop="22.5dp"
+            android:layout_marginLeft="22.5dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+    >
+        <ImageView
+                android:layout_marginLeft="12.5dp"
+                android:layout_marginTop="12.5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+        android:src="@mipmap/add_blue"/>
+
+    </FrameLayout>
+
+</LinearLayout>

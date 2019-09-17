@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tv_time"
+            style="@style/TextTime"/>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <zzw.imtest.view.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_marginLeft="13dp"
+            android:layout_width="@dimen/chat_head"
+            android:layout_height="@dimen/chat_head"
+            android:src="@mipmap/head_default"
+    />
+    
+    <TextView
+
+            android:id="@+id/tv"
+            android:background="@drawable/chat_receive_bg"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="78dp"
+            android:layout_width="wrap_content"
+            android:maxWidth="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tv"
+            android:textSize="13dp"/>
+
+
+    <ProgressBar
+            android:visibility="invisible"
+            android:id="@+id/pb"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Small"
+    />
+
+</RelativeLayout></LinearLayout>
