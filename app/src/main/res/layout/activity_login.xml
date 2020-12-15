@@ -36,7 +36,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:text="18972789642"
+                    android:text="123456"
                     android:id="@+id/login_username"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -70,7 +70,7 @@
 
 
                 <EditText
-                    android:text="123456z"
+                    android:text="123456"
                     android:id="@+id/login_pwd"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
